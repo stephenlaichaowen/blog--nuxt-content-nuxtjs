@@ -19,9 +19,6 @@
 <!-- <br> -->
 - [Create a Blog with Nuxt Content](https://nuxtjs.org/blog/creating-blog-with-nuxt-content)
 
-## DEMO
-[]()
-
 ## Build Setup
 
 ```bash
@@ -39,4 +36,13 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Deploy to Netlify account
+
+```bash
+# Build settings
+Build command: npm run generate
+Publish directory: dist
+```
+
+## DEMO
+[https://blog-nuxt-content-nuxtjs.netlify.app/](https://blog-nuxt-content-nuxtjs.netlify.app/)
