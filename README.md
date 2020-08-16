@@ -3,14 +3,14 @@
 > This blog project is built with Nuxtjs latest module - @nuxt/content, it makes a pleasant way of building our own blog.
 
 ## Technology
-- Frontend: Nuxtjs(@nuxt/content)
+- Frontend: Nuxtjs
   
 ## Why using @nuxt/content module to build blogs/posts ?
-**Adavantages of using @nuxt/content module**
+**Adavantages**
 - We can write our blogs/posts with markdown language
 - We don't need to connet to a backend service
 
-**Disadavantages of using @nuxt/content module**
+**Disadavantages**
 - We have to write our blogs/post in development environment which is unfriendly for non-developers
 - No User interface to let us input our blog content like storyblok, strapi or contetful, etc.
   
