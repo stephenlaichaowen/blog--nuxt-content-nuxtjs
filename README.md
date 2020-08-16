@@ -15,6 +15,7 @@
   
 ## Reference
 [NuxtJS Static Pages and Content API - The Latest Features](https://www.youtube.com/watch?v=syD1Z55X8fQ)
+<br>
 [Create a Blog with Nuxt Content](https://nuxtjs.org/blog/creating-blog-with-nuxt-content)
 
 ## DEMO
