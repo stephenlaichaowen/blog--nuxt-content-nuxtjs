@@ -1,6 +1,15 @@
-# blog
+# Blog buit with @nuxt/content 
 
-> Blog
+> This blog project is built with Nuxtjs latest module - @nuxt/content, it requires no backend to build a blog without a hassle
+
+## Technology
+- Frontend: Nuxtjs
+  
+## Reference
+[NuxtJS Static Pages and Content API - The Latest Features](https://www.youtube.com/watch?v=syD1Z55X8fQ)
+
+## DEMO
+[]()
 
 ## Build Setup
 
