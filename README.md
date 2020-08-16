@@ -5,11 +5,11 @@
 ## Technology
 - Frontend: Nuxtjs
   
-***Adavantages of using @nuxt/content module***
+**Adavantages of using @nuxt/content module**
 - We can write our blogs/posts with markdown language
 - We don't need to connet to a backend service
 
-***Disadavantages of using @nuxt/content module***
+**Disadavantages of using @nuxt/content module**
 - We have to write our blogs/post in development environment which is unfriendly for non-developers
 - No User interface to let us input our blog content like storyblok, strapi or contetful, etc.
   
