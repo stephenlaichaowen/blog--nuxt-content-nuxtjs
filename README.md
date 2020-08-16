@@ -14,11 +14,6 @@
 - We have to write our blogs/post in development environment which is unfriendly for non-developers
 - No User interface to let us input our blog content like storyblok, strapi or contetful, etc.
   
-## Reference
-- [NuxtJS Static Pages and Content API - The Latest Features](https://www.youtube.com/watch?v=syD1Z55X8fQ)
-<!-- <br> -->
-- [Create a Blog with Nuxt Content](https://nuxtjs.org/blog/creating-blog-with-nuxt-content)
-
 ## Build Setup
 
 ```bash
@@ -43,6 +38,11 @@ $ npm run generate
 Build command: npm run generate
 Publish directory: dist
 ```
+
+## Reference
+- [NuxtJS Static Pages and Content API - The Latest Features](https://www.youtube.com/watch?v=syD1Z55X8fQ)
+<!-- <br> -->
+- [Create a Blog with Nuxt Content](https://nuxtjs.org/blog/creating-blog-with-nuxt-content)
 
 ## DEMO
 [https://blog-nuxt-content-nuxtjs.netlify.app/](https://blog-nuxt-content-nuxtjs.netlify.app/)
