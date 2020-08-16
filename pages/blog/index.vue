@@ -34,9 +34,16 @@ export default {
   grid-gap: 1rem;
 
   article {
-    border: 3px solid #00cc99;
+    // border: 3px solid #00cc99;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+    // box-shadow: 3px 3px 5px rgba(0, 204, 153, 0.5);
+    box-shadow: 3px 3px 5px rgb(0, 204, 153);
+    
+
+    &:hover {
+      transform: translateY(-5px);
+    }
 
     img {
       width: 100%;
