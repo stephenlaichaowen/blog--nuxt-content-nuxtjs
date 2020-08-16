@@ -3,7 +3,7 @@
 > This blog project is built with Nuxtjs latest module - @nuxt/content, it requires no backend to build a blog without a hassle
 
 ## Technology
-- Frontend: Nuxtjs
+- Frontend: Nuxtjs(@nuxt/content)
   
 **Adavantages of using @nuxt/content module**
 - We can write our blogs/posts with markdown language
