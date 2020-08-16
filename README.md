@@ -1,6 +1,6 @@
 # Blog buit with @nuxt/content 
 
-> This blog project is built with Nuxtjs latest module - @nuxt/content, it requires no backend to build a blog without a hassle
+> This blog project is built with Nuxtjs latest module - @nuxt/content, it makes a pleasant way of building our own blog.
 
 ## Technology
 - Frontend: Nuxtjs(@nuxt/content)
