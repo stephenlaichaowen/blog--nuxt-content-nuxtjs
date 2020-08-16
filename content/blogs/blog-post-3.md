@@ -1,6 +1,7 @@
 ---
 title: Third Bloggy Post
 description: Learn how to use @nuxt/content.
+image: "https://picsum.photos/1920/1080"
 ---
 
 ## Third Bloggy Post  
