@@ -12,7 +12,7 @@
 
 **Disadavantages**
 - We have to write our blogs/post in development environment which is unfriendly for non-developers
-- No User interface to let us input our blog content like storyblok, strapi or contetful, etc.
+- No User interface (like storyblok, strapi or contetful, etc.) that let us input our content like text, images, video, etc.
   
 ## Build Setup
 
