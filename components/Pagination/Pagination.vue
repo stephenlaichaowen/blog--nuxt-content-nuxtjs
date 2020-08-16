@@ -21,9 +21,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$theme-color: #00cc99;
 .pagination {
    margin-top: 1rem;
    display: flex;
-   justify-content: space-between;
+  //  justify-content: space-between;
+   justify-content: center;
+
+   a {
+     text-decoration: none;
+     color: $theme-color;
+     margin: 0 1rem;
+   }
  }
 </style>
