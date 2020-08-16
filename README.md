@@ -5,6 +5,7 @@
 ## Technology
 - Frontend: Nuxtjs(@nuxt/content)
   
+## Why using @nuxt/content module to build blogs/posts ?
 **Adavantages of using @nuxt/content module**
 - We can write our blogs/posts with markdown language
 - We don't need to connet to a backend service
