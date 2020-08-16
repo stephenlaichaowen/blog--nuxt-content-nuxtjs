@@ -19,7 +19,7 @@ export default {}
 $border-color: yellow;
 
 nav {
-  height: 8vh;
+  height: 10vh;
   background: #00cc99;
 
   ul {
@@ -29,14 +29,13 @@ nav {
     padding: 0;
     list-style: none;
     height: 100%;
-    // border: 2px solid yellow;
 
     li {
       height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 0.8em;
+      padding: 1em;
 
       &.nuxt-link-exact-active {
         border-bottom: 3px solid $border-color;

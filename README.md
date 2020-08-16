@@ -45,4 +45,4 @@ Publish directory: dist
 - [Create a Blog with Nuxt Content](https://nuxtjs.org/blog/creating-blog-with-nuxt-content)
 
 ## DEMO
-[https://blog-nuxt-content-nuxtjs.netlify.app/](https://blog-nuxt-content-nuxtjs.netlify.app/)
+[https://blog-nuxt-content-nuxtjs.netlify.app/](https://blog-nuxt-content-nuxtjs.netlify.app/blog)

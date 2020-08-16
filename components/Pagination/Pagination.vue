@@ -1,7 +1,7 @@
 <template>
   <div class="pagination">
-    <nuxt-link v-if="prev" :to="`/blog/${prev.slug}`"><i class="far fa-arrow-alt-circle-left"></i> {{prev.title}}</nuxt-link>
-    <nuxt-link v-if="next" :to="`/blog/${next.slug}`">{{next.title}} <i class="far fa-arrow-alt-circle-right"></i></nuxt-link>
+    <nuxt-link v-if="prev" :to="`/blog/${prev.slug}`"><i class="far fa-arrow-alt-circle-left"></i> {{ prev.title }}</nuxt-link>
+    <nuxt-link v-if="next" :to="`/blog/${next.slug}`">{{ next.title }} <i class="far fa-arrow-alt-circle-right"></i></nuxt-link>
   </div>
 </template>
 
