@@ -15,13 +15,14 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const blogs = await $content('blogs')
-      .only(['title', 'slug', 'image'])
-      .fetch()
-    console.log(blogs)
-    return {
-      blogs
-    }
+    const blogs = await $content('blogs').fetch()
+    return { blogs }
+  },
+
+  // axios / json
+  async asyncData({ $axios }) {
+    const blogs = await $axios.$get(`/blogs.json`)
+    return { blogs }
   }
 }
 </script>
@@ -34,11 +35,9 @@ export default {
   grid-gap: 1rem;
 
   article {
-    // border: 3px solid #00cc99;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    // box-shadow: 3px 3px 5px rgba(0, 204, 153, 0.5);
-    box-shadow: 3px 3px 5px rgb(0, 204, 153);
+    box-shadow: 3px 3px 5px rgba(0, 204, 153, 0.5);
     
 
     &:hover {
