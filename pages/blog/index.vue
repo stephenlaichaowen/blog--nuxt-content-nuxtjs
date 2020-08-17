@@ -20,10 +20,10 @@ export default {
   },
 
   // axios / json
-  async asyncData({ $axios }) {
-    const blogs = await $axios.$get(`/blogs.json`)
-    return { blogs }
-  }
+  // async asyncData({ $axios }) {
+  //   const blogs = await $axios.$get(`/blogs.json`)
+  //   return { blogs }
+  // }
 }
 </script>
 
