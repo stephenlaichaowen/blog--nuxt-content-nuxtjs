@@ -4,10 +4,10 @@
     <Pagination :prev="prev" :next="next" />
 
     <!-- axios / json -->
-    <h1>{{ blog.title }}</h1>
+    <!-- <h1>{{ blog.title }}</h1>
     <p>{{ blog.content }}</p>
     <img :src="blog.image" alt="Image">
-    <Pagination :prev="blog.prev" :next="blog.next" />
+    <Pagination :prev="blog.prev" :next="blog.next" /> -->
   </article>
 </template>
 
@@ -27,13 +27,13 @@ export default {
   },
 
   // axios / json
-  async asyncData({ $axios, params }) {
-    const blog = await $axios.$get(`/${params.slug}.json`)
-    console.log(params.slug)
-    console.log(blog.prev)
-    console.log(blog.next)
-    return { blog }
-  }
+  // async asyncData({ $axios, params }) {
+  //   const blog = await $axios.$get(`/${params.slug}.json`)
+  //   console.log(params.slug)
+  //   console.log(blog.prev)
+  //   console.log(blog.next)
+  //   return { blog }
+  // }
 }
 </script>
 
