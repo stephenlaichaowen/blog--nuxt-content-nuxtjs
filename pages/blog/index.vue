@@ -55,6 +55,7 @@ export default {
 
   .card {
     box-shadow: 5px 10px 8px #888888;
+    transition: transform 0.5s ease-out;
 
     &:hover {
       transform: translateY(-5px);
